@@ -9,4 +9,4 @@ ADD app /usr/src/app
 
 WORKDIR /usr/src/app
 
-CMD "npm" "install"
+RUN npm install
